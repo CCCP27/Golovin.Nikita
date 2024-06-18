@@ -11,6 +11,7 @@
             <RowDefinition Height="650"/>
             <RowDefinition Height="80"/>
             <RowDefinition Height="70"/>
+            <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="15"/>
@@ -26,11 +27,11 @@
             <ColumnDefinition Width="15"/>
         </Grid.ColumnDefinitions>
         <Image Source="/Resource/Group 14.png" Grid.ColumnSpan="11" Margin="5"/>
-        <Image Source="/Resource/ГЛАВНАЯ (1).png" Grid.Row="3" Grid.Column="1" Margin="1" MouseDown="Image_MouseDown"/>
-        <Image Source="/Resource/ИЗБРАННОЕ.png" Grid.Row="3" Grid.Column="3" Margin="1" MouseDown="Image_MouseDown_1"/>
-        <Image Source="/Resource/ОБМЕН.png" Grid.Row="3" Grid.Column="5" Margin="1" MouseDown="Image_MouseDown_3"/>
-        <Image Source="/Resource/ЧАТ.png" Grid.Row="3" Grid.Column="7" Margin="1" MouseDown="Image_MouseDown_4" />
-        <Image Source="/Resource/ПРОФИЛЬ.png" Grid.Row="3" Grid.Column="9" Margin="1" />
+        <Image Source="/Resource/ГЛАВНАЯ (1).png" Grid.Row="2" Grid.Column="1" Margin="1" MouseDown="Image_MouseDown"/>
+        <Image Source="/Resource/ИЗБРАННОЕ.png" Grid.Row="2" Grid.Column="3" Margin="1" MouseDown="Image_MouseDown_1"/>
+        <Image Source="/Resource/ОБМЕН.png" Grid.Row="2" Grid.Column="5" Margin="1" MouseDown="Image_MouseDown_3"/>
+        <Image Source="/Resource/ЧАТ.png" Grid.Row="2" Grid.Column="7" Margin="1" MouseDown="Image_MouseDown_4" />
+        <Image Source="/Resource/ПРОФИЛЬ.png" Grid.Row="2" Grid.Column="9" Margin="1" />
         <TextBlock Text="Смотреть" Foreground="#9AE2EC" Grid.Column="7" Margin="16,399,6,240" Grid.ColumnSpan="3" FontSize="15" RenderTransformOrigin="0.559,0.115" MouseDown="TextBlock_MouseDown"/>
     </Grid>
 </Window>
